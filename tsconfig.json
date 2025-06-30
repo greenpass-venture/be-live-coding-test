@@ -1,0 +1,23 @@
+{
+  "include": [
+    "src/**/*",
+    "**/__tests__/**/*",
+    "jest.config.ts"
+  ],
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020", "esnext.asynciterable"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./build",
+    "strict": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
